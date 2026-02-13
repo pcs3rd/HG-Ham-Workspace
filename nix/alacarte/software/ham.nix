@@ -1,0 +1,18 @@
+{ inputs, outputs, lib, pkgs, ... }:{
+  environment.systemPackages = with pkgs; [
+    python313Packages.meshtastic
+    wsjtx
+    fldigi
+    hamlib
+    soundmodem
+    direwolf
+    flrig
+    js8call
+    digiham
+    pat
+	minicom
+    qlog
+    contact
+    nanovna-saver
+  ];
+}
