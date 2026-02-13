@@ -15,7 +15,7 @@
       description  = "Hacker's Guild";
       uid = 1000; 
       extraGroups = [ "docker" "networkmanager" "storage" ]; 
-      hashedPasswordFile = "/stateful/p/userd";
+      hashedPasswordFile = "/stateful/p/user";
     };
   };
 }
