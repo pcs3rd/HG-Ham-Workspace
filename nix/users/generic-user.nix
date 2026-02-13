@@ -11,7 +11,7 @@
     };
     user = {
       isNormalUser = true;
-      home = "/home/operator";
+      home = "/home/user";
       description  = "Hacker's Guild";
       uid = 1000; 
       extraGroups = [ "docker" "networkmanager" "storage" ]; 
