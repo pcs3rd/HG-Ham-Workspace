@@ -1,7 +1,6 @@
 { inputs, outputs, lib, pkgs, modulesPath, ... }:{
   boot = {
     loader = {
-        canTouchEfiVariables = true;
         systemd-boot = {
             enable = true;
             configurationLimit = 2;
