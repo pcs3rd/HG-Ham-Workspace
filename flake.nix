@@ -43,6 +43,7 @@
             disko.nixosModules.disko
             # Base config for intel macbook. This isn't an intel macbook
             #./nix/base/intel-macbook.nix
+            ./nix/base/desktop.nix
             # This is a community machine. It rememembers nothing but /home, and some system state things. No more. 
             ./nix/disk/impermanence.nix
             # User 
