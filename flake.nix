@@ -57,6 +57,7 @@
             {
               disko.devices.disk.system.device = "/dev/sda";
               networking.hostName = "ham";
+              nixpkgs.hostPlatform = "linux-x86_64";
             }
         ];
       };
