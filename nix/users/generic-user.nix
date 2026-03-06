@@ -6,7 +6,6 @@
   users.mutableUsers = false;
   users.users = {
     root = {
-      description  = "Hackers's Guild Root";
       hashedPasswordFile = "/stateful/p/root";
     };
     user = {
