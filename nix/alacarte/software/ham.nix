@@ -10,9 +10,32 @@
     js8call
     digiham
     pat
-	minicom
+	  minicom
     qlog
     contact
     nanovna-saver
+    sdrpp
+    sdrplay
+    sdrangel
+    sdr-j-fm
+    soapysdr-sdrplay3
+    hackrf
+    soapyrtlsdr
+    rtl-sdr-librtlsdr
+    gnuradioPackages.osmosdr
+    soapyremote
+    nrsc5
+    gqrx
+    gnuradio
+    quisk
+    qradiolink
+    fm-tune
+    airspy
+    inspectrum
+    gnuradioPackages.lora_sdr
+    qsstv
+    gridtracker
+    xastir
+    svxlink
   ];
 }
