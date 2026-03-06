@@ -54,7 +54,6 @@
             ./nix/alacarte/software/ham.nix
             {
               networking.hostName = "hg-ham1";
-              disko.devices.disk.system.device = "/dev/sda";
             }
         ];
       };
