@@ -35,9 +35,6 @@
     enable = true;
   };
 
-# Network
-  networking.networkmanager.enable = true;
-
 # Audio
   hardware.pulseaudio.enable = false;
   services.pipewire = {
