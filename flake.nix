@@ -35,6 +35,7 @@
     ];
     forAllSystems = nixpkgs.lib.genAttrs systems;
   in {
+    nixosConfigurations = {
       ham = nixpkgs.lib.nixosSystem {
         # A basic Ham Radio machine that attempts to be as stateless as possible. 
         specialArgs = {inherit inputs outputs;};
@@ -60,5 +61,6 @@
         ];
       };
     };
-  }
+  };
+}
 
