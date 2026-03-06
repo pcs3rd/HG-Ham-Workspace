@@ -44,7 +44,7 @@
             # Base config for intel macbook. This isn't an intel macbook
             #./nix/base/intel-macbook.nix
             # This is a community machine. It rememembers nothing but /home, and some system state things. No more. 
-            ./nix/disko/impermanence.nix
+            ./nix/disk/impermanence.nix
             # User 
             ./nix/user/generic-user.nix
             # packages and services
