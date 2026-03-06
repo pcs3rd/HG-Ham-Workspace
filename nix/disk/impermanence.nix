@@ -4,11 +4,11 @@
     inputs.impermanence.nixosModules.impermanence
     inputs.disko.nixosModules.disko
     ];
+
   disko.devices = {
     disk = {
        system = {
         type = "disk";
-        device = "/dev/sda";
         content = {
           type = "gpt";
           partitions = {

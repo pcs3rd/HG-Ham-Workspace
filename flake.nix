@@ -39,6 +39,7 @@
         # A basic Ham Radio machine that attempts to be as stateless as possible. 
         specialArgs = {inherit inputs outputs;};
         modules = [
+            disko.nixosModules.disko
             # Base config for intel macbook.
             ./nix/base/intel-macbook.nix
             # This is a community machine. It rememembers nothing but /home, and some system state things. No more. 
@@ -53,6 +54,7 @@
             ./nix/alacarte/software/firefox.nix
             ./nix/alacarte/software/ham.nix
             {
+              disko.devices.disk.system.device = "/dev/sda";
               networking.hostName = "hg-ham1";
             }
         ];
