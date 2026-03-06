@@ -1,7 +1,6 @@
 { outputs, inputs, lib, config, pkgs, modulesPath, ... }:{
   imports = [ 
     (modulesPath + "/installer/scan/not-detected.nix")
-    inputs.home-manager.nixosModules.home-manager
     ];
 
 # Security Opts
