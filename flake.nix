@@ -35,7 +35,7 @@
     ];
     forAllSystems = nixpkgs.lib.genAttrs systems;
   in {
-      hg-ham1 = nixpkgs.lib.nixosSystem {
+      ham = nixpkgs.lib.nixosSystem {
         # A basic Ham Radio machine that attempts to be as stateless as possible. 
         specialArgs = {inherit inputs outputs;};
         modules = [
@@ -55,7 +55,7 @@
             ./nix/alacarte/software/ham.nix
             {
               disko.devices.disk.system.device = "/dev/sda";
-              networking.hostName = "hg-ham1";
+              networking.hostName = "ham";
             }
         ];
       };
