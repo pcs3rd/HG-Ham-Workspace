@@ -18,7 +18,6 @@
     sdrplay
     sdrangel
     sdr-j-fm
-    soapysdr-sdrplay3
     hackrf
     soapyrtlsdr
     rtl-sdr-librtlsdr
