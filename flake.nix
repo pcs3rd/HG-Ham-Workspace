@@ -46,7 +46,7 @@
             # This is a community machine. It rememembers nothing but /home, and some system state things. No more. 
             ./nix/disk/impermanence.nix
             # User 
-            ./nix/user/generic-user.nix
+            ./nix/users/generic-user.nix
             # packages and services
             ./nix/alacarte/boot/systemd-boot.nix
             ./nix/alacarte/desktops/cosmic.nix
