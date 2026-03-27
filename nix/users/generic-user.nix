@@ -13,7 +13,7 @@
       home = "/home/user";
       description  = "Hacker's Guild";
       uid = 1000; 
-      extraGroups = [ "docker" "networkmanager" "storage" ]; 
+      extraGroups = [ "docker" "networkmanager" "storage" "wireshark" "dialout" ]; 
       hashedPasswordFile = "/stateful/p/user";
     };
   };
