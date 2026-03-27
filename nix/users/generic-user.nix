@@ -17,7 +17,5 @@
       hashedPasswordFile = "/stateful/p/user";
     };
   };
-  programs.wireshark.dumpcap.enable = true;
-  programs.wireshark.enable = true;
 }
 
