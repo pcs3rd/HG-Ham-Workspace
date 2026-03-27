@@ -37,5 +37,8 @@
     xastir
     svxlink
     tshark
+	wireshark
   ];
+  programs.wireshark.dumpcap.enable = true;
+  programs.wireshark.enable = true;
 }
