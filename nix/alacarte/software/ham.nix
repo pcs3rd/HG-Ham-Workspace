@@ -36,7 +36,6 @@
     gridtracker
     xastir
     svxlink
-    wireshark
     tshark
   ];
 }
