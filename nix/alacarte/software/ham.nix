@@ -36,5 +36,9 @@
     gridtracker
     xastir
     svxlink
+    wireshark
+    tshark
+    qtwirediff
+    junkie
   ];
 }
